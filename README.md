@@ -62,7 +62,7 @@ El usuario registrado como cliente puede realizar las siguientes acciones: 
 
 ### Javascript Frontend 
 
-El frontend deberá hacer llamadas a la API desarrollada, utilizando fetch o alguna librería para realizar peticiones de forma asíncrona.
+El frontend deberá ser desarrollado en React.js, y realizar llamadas a la API desarrollada, utilizando fetch o alguna librería para realizar peticiones de forma asíncrona.
 
 Cuando el usuario cliente clickee en "Comprar" deberás enviar por AJAX el id de la app y guardarla en la base de datos. Para esto, deberás crear un endpoint que se acceda de la siguiente forma: https://urlServidor/api/buy 
 

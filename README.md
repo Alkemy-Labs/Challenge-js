@@ -28,11 +28,11 @@ Requerimientos Funcionales
 
 En la aplicación deberán existir dos tipos de usuarios: Desarrollador y Cliente.
 
-Registro 
+### Registro 
 
 Tanto desarrollador como cliente se registrarán a través del mismo formulario, especificando su rol en el mismo.
 
-Usuario Desarrollador
+### Usuario Desarrollador
 
 El usuario registrado como desarrollador puede realizar las siguientes acciones: 
 
@@ -50,7 +50,7 @@ Editar los datos de una aplicación.  (La categoria y el nombre no pueden ser m
 
 Dar de baja una aplicación
 
-Usuario Cliente 
+### Usuario Cliente 
 
 El usuario registrado como cliente puede realizar las siguientes acciones: 
 
@@ -60,7 +60,7 @@ El usuario registrado como cliente puede realizar las siguientes acciones: 
 
 -   Ingresar al detalle de una app 
 
-Javascript Frontend 
+### Javascript Frontend 
 
 El frontend deberá hacer llamadas a la API desarrollada, utilizando fetch o alguna librería para realizar peticiones de forma asíncrona.
 
@@ -78,7 +78,7 @@ DELETE si es para cancelar la compra o eliminar de la lista de deseos 
 
 En el body del request se debe comunicar solamente el id de la app a comprar
 
-Rutas y Seguridad 
+### Rutas y Seguridad 
 
 Todas las rutas que solo puedan navegar usuarios autenticados, deben estar bajo el prefijo /me , 
 
@@ -91,10 +91,12 @@ En cambio si ingresa a/apps (sin el prefijo) va a ver todas las apps sin distinc
 Si un usuario no autenticado intenta ingresar a una ruta que no le corresponde, por ejemplo a la url para crear aplicaciones, entonces debe ser redirigido a donde vino. 
 
 Conclusión 
+-----------
 
 Esperamos contar con una pantalla de registro y una de login. Luego, ingresando al sistema como desarrollador debo ver la lista de las aplicaciones que publiqué, ingresar al detalle de cada una, editar información o eliminarla. Si ingreso como usuario cliente, debo ver la lista de aplicaciones que compré y ver el detalle. 
 
 Criterios a evaluar 
+--------------------
 
 -   Diseño responsive, moderno, intuitivo 
 
@@ -115,6 +117,7 @@ Criterios a evaluar 
 -   Correcto diseño de la base de datos
 
 Bonus 
+------
 
 Se requiere que implementes al menos uno de estos puntos (a eleccion) 
 

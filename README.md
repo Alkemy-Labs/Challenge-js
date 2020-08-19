@@ -38,17 +38,17 @@ El usuario registrado como desarrollador puede realizar las siguientes acciones:
 
 - Dar de alta una aplicación indicando:
 
-  - Categoría 
+  - Categoría.
 
-  - Nombre 
+  - Nombre.
 
-  - Precio de venta
+  - Precio de venta,
 
-  - Imagen o logo 
+  - Imagen o logo.
 
 - Editar los datos de una aplicación.  (La categoria y el nombre no pueden ser modificados). 
 
-- Dar de baja una aplicación
+- Dar de baja una aplicación.
 
 ### Usuario Cliente 
 
